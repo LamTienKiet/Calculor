@@ -1,0 +1,75 @@
+// const calculator = {
+// currentValue: 0,
+// add(number) {
+// this.currentValue = this.currentValue + number;
+// },
+
+// subtract(number) {
+// this.currentValue = this.currentValue - number;
+// },
+// multiply(number) {
+// this.currentValue = this.currentValue \* number;
+// },
+// divide(number) {
+// if (number === 0) {
+// console.log("Khong the chia cho 0");
+// return;
+// } else {
+// this.currentValue = this.currentValue / number;
+// }
+// },
+// reset() {
+// this.currentValue = 0;
+// },
+// };
+
+// let operator = null;
+
+// const display = document.getElementById("display");
+// const input = document.getElementById("inputNumber");
+
+// const addBtn = document.getElementById("add");
+// const subBtn = document.getElementById("sub");
+// const mulBtn = document.getElementById("mul");
+// const divBtn = document.getElementById("div");
+// const equalBtn = document.getElementById("equal");
+// const outBtn = document.getElementById("out");
+
+// addBtn.addEventListener("click", function () {
+// operator = "+";
+// });
+
+// subBtn.addEventListener("click", function () {
+// operator = "-";
+// });
+
+// mulBtn.addEventListener("click", function () {
+// operator = "\*";
+// });
+
+// divBtn.addEventListener("click", function () {
+// operator = "/";
+// });
+
+// equalBtn.addEventListener("click", function () {
+// const number = Number(input.value);
+
+// if (operator === "+") {
+// calculator.add(number);
+// } else if (operator === "-") {
+// calculator.subtract(number);
+// } else if (operator === "\*") {
+// calculator.multiply(number);
+// } else if (operator === "/") {
+// calculator.divide(number);
+// }
+
+// display.value = calculator.currentValue;
+// input.value = "";
+// operator = null;
+// });
+
+// outBtn.addEventListener("click", function () {
+// calculator.reset();
+// display.value = 0;
+// });
